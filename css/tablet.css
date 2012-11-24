@@ -1,0 +1,225 @@
+.right-container{
+	background-color:#f2f2f2;
+	border-radius:7px;
+	box-shadow:2px 2px 2px #888888;
+	height:85%;
+	width:300px !important;
+	position:fixed;
+	right:2%;
+	top:0;
+	margin-top:60px;
+	z-index:9998;
+	padding:10px;
+	overflow:scroll !important;
+	-webkit-overflow-scrolling: touch;
+}
+
+body{
+	margin-top:70px;
+}
+
+
+/* GRID */
+
+.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12{
+	float:left;
+	overflow:hidden;
+	width:100%;
+}
+
+.span1-tablet, .span2-tablet, .span3-tablet, .span4-tablet, .span5-tablet, .span6-tablet, .span7-tablet, .span8-tablet, .span9-tablet, .span10-tablet, .span11-tablet, .span12-tablet{
+	float:left;
+}
+
+.span1-tablet{
+	width:8.3%;
+}
+
+.span2-tablet{
+	width:16.7%;
+}
+
+.span3-tablet{
+	width:25%;
+}
+
+.span4-tablet{
+	width:33.3%;
+}
+
+.span5-tablet{
+	width:41.7%;
+}
+
+.span6-tablet{
+	width:50%;
+}
+
+.span7-tablet{
+	width:58.3%;
+}
+
+.span8-tablet{
+	width:66.7%;
+}
+
+.span9-tablet{
+	width:75%;
+}
+
+.span10-tablet{
+	width:83.3%;
+}
+
+.span11-tablet{
+	width:91.7%;
+}
+
+.span12-tablet{
+	width:100%;
+}
+
+.offset1-tablet{
+	margin-left:8.3%;
+}
+
+.offset2-tablet{
+	margin-left:16.7%;
+}
+
+.offset3-tablet{
+	margin-left:25%;
+}
+
+.offset4-tablet{
+	margin-left:33.3%;
+}
+
+.offset5-tablet{
+	margin-left:41.7%;
+}
+
+.offset6-tablet{
+	margin-left:50%;
+}
+
+.offset7-tablet{
+	margin-left:58.3%;
+}
+
+.offset8-tablet{
+	margin-left:66.7%;
+}
+
+.offset9-tablet{
+	margin-left:75%;
+}
+
+.offset10-tablet{
+	margin-left:83.3%;
+}
+
+.offset11-tablet{
+	margin-left:91.7%;
+}
+
+.offset12-tablet{
+	margin-left:100%;
+}
+
+/* END GRID */
+
+.hide-mobile{
+	display:block;
+}
+
+.hide-tablet{
+	display:none;
+}
+
+.hide-desktop{
+	display:block;
+}
+
+.show-mobile{
+	display:none;
+}
+
+.show-tablet{
+	display:block;
+}
+
+.show-desktop{
+	display:none;
+}
+
+/* HEADLINES */
+
+h1{
+	font-size:400%;
+	font-weight: bold;
+}
+
+h2{
+	font-size:300%;
+	font-weight: bold;
+}
+
+h3{
+	font-size:300%;
+	font-weight: bold;
+}
+
+h4{
+	font-size:200%;
+	font-weight:bold;
+}
+
+h5{
+	font-size:150%;
+	font-weight:bold;
+}
+
+/* END HEADLINES */
+
+/* IMAGE HEIGHTS */
+
+.h-100{
+	height:100px;
+}
+
+.h-200{
+	height:200px;
+}
+
+.h-300{
+	height:300px;
+}
+
+.h-400{
+	height:400px;
+}
+
+/* END IMAGE HEIGHTS */
+
+.nav-tablet{
+	position:fixed;
+	z-index:9997 !important;
+	top:50px;
+}
+
+.image{
+	background-position:top;
+}
+
+.split-image{
+	padding:0;
+	background-size: cover;
+	height:100%;
+	background-position:center;
+	position:absolute; 
+}
+
+.nav ul a{
+	padding:16px 8px 0px 8px;
+}

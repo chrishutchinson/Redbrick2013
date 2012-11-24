@@ -1,0 +1,166 @@
+.more li{
+	margin-bottom:9px;
+	margin-top:9px;
+	font-weight: bold;
+	line-height:1.4em;
+}
+
+/* Section Links */
+
+a.news:hover{
+	background-color:#660000;
+	color:#FFFFFF;
+}
+
+a.comment:hover{
+	background-color:#57009c;
+	color:#FFFFFF;
+}
+
+a.sport:hover{
+	background-color:#3f927f;
+	color:#FFFFFF;
+}
+
+a.arts:hover{
+	background-color:#97281a;
+	color:#FFFFFF;
+}
+
+a.music:hover{
+	background-color:#257dcf;
+	color:#FFFFFF;
+}
+
+a.tech:hover{
+	background-color:#2963b2;
+	color:#FFFFFF;
+}
+
+a.life:hover{
+	background-color:#a41383;
+	color:#FFFFFF;
+}
+
+a.food:hover{
+	background-color:#d18a24;
+	color:#FFFFFF;
+}
+
+a.film:hover{
+	background-color:#4db6b5;
+	color:#FFFFFF;
+}
+
+a.travel:hover{
+	background-color:#47b51e;
+	color:#FFFFFF;
+}
+
+a.tv:hover{
+	background-color:#ed9700;
+	color:#FFFFFF;
+}
+
+
+.nav{
+	margin-bottom:15px;
+	background-color:#FFFFFF;
+	border-bottom:1px solid #b2b2b2;
+	overflow: hidden;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:9999;
+	height:50px;
+}
+
+.nav a.logo{
+	padding:5px !important;
+	margin:0px !important;
+}
+
+.nav a.logo:hover{
+	background-color:#FFFFFF;
+}
+
+.nav a.logo img{
+	width:40px;
+	height:40px;
+}
+
+.nav ul{
+	list-style: none;
+	font-weight: bold;
+}
+
+.nav ul a{
+	float:left;
+	font-size:14px;
+	text-align: center;
+	height:50px;
+}
+
+.nav .menu-button{
+	width:24px;
+	height:24px;
+	margin:13px;
+	float: right;
+}
+
+.mobile-search{
+	z-index:99998;
+	background-color:#FFFFFF;
+	padding:10px;
+	font-size:14px;
+	font-weight:bold;
+	border-bottom: 1px solid #b2b2b2;
+	position:fixed;
+	top:50px;
+	left:0;
+}
+
+.mobile-search .search-box{
+	width:90%;
+	float:left;
+	height:30px;
+	outline: none;
+}
+
+.mobile-search .search-button{
+	float:right;
+	height:20px;
+	width:20px;
+}
+
+.mobile-sections{
+	z-index:99999;
+	background-color:#FFFFFF;
+	padding:5px 16px 16px 16px;
+	font-size:14px;
+	font-weight:bold;
+	border-bottom: 1px solid #b2b2b2;
+}
+
+.mobile-section-1{
+	position:fixed;
+	top:50px;
+	left:0;
+}
+
+.mobile-section-2{
+	position:fixed;
+	top:50px;
+	left:50%;
+}
+
+.mobile-sections li{
+	width:100%;
+	border-bottom:1px solid #aaaaaa;
+}
+
+.mobile-sections a{
+	display:block;
+	padding-top:20px;
+	padding:7px 0px 4px 5px;
+}
