@@ -164,3 +164,7 @@ a.tv:hover{
 	padding-top:20px;
 	padding:7px 0px 4px 5px;
 }
+
+.footer-br{
+	border-right:1px solid #373737;
+}
