@@ -147,6 +147,11 @@ p a{
 	background-color: #fe9b00;
 	line-height:2.1em;
 	cursor: pointer;
+	background-image:url(../img/tag.png);
+	background-repeat:no-repeat;
+	background-position:8px 5px;
+	background-size:15px 15px;
+	padding-left:30px;
 }
 
 .item:hover{
@@ -162,6 +167,11 @@ ul{
 .arrow{
 	background-color:#cf3375;
 	overflow: hidden;
+	background-image:url(../img/spotlight.png);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+	background-size:40px 55px;
+	padding-left:40px;
 }
 
 .white-text{
