@@ -62,17 +62,24 @@ a.tv:hover{
 	color:#FFFFFF;
 }
 
+.nav-hide-fix{
+	height:50px;
+	display: none;
+}
 
 .nav{
-	margin-bottom:15px;
 	background-color:#FFFFFF;
 	border-bottom:1px solid #b2b2b2;
 	overflow: hidden;
-	position:fixed;
-	top:0;
-	left:0;
-	z-index:9999;
 	height:50px;
+	position:relative;
+	z-index:99999;
+}
+
+.nav-fixed{
+	position:fixed;
+	top:0px;
+	left:0px;
 }
 
 .nav a.logo{

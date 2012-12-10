@@ -11,6 +11,10 @@
 	-webkit-overflow-scrolling: touch;
 }
 
+.nav, .nav-hide-fix{
+	margin-bottom:15px;
+}
+
 /* GRID */
 
 .span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12{
@@ -198,6 +202,16 @@ h5{
 
 .image{
 	background-position:top;
+}
+
+.mobile-sections{
+	position:absolute;
+	top:250px;
+}
+
+.mobile-sections-fixed{
+	position:fixed;
+	top:50px;
 }
 
 

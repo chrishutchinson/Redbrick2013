@@ -14,10 +14,13 @@
 	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 	<script>
 	$(document).ready(function(){
+		var showdesktop = "1";
+		var showtablet = "0";
 		$(".sidebar-activate").click(function(){
 			$(".right-container").toggle();
 			$(".left-container").toggleClass("span9").toggleClass("span12");
 			//($(".left-container").hasClass("span9")) ? $(".holder").css({"max-width":"1000px"}) : $(".holder").css({"max-width":""});
+			
 			
 		});
 
@@ -25,11 +28,42 @@
 			$(".mobile-sections").toggleClass("hide");
 			return false;
 		});
+
+		var distance = $('.nav').offset().top,
+		$window = $(window);
+
+		$window.scroll(function() {
+		    if ( $window.scrollTop() >= distance ) {
+		        // Your div has reached the top
+		        $('.nav').addClass("nav-fixed");
+		        $('.nav-tablet').addClass("nav-tablet-fixed");
+		        $('.right-container').addClass("right-container-fixed");
+		        $('.mobile-sections').addClass("mobile-sections-fixed");
+		        $('.nav-hide-fix').show();
+		        $('.nav-hide-fix-tablet').show();
+		    }
+		    else
+		    {
+		        $('.nav').removeClass("nav-fixed");
+		        $('.nav-tablet').removeClass("nav-tablet-fixed");
+		        $('.right-container').removeClass("right-container-fixed");
+		        $('.mobile-sections').removeClass("mobile-sections-fixed");
+		        $('.nav-hide-fix').hide();
+		        $('.nav-hide-fix-tablet').hide();
+		    }
+		});
 	});
 
 	</script>
 </head>
 <body>
+
+<div class="span12 image h-400" style="background-image:url(img/slider.png);">
+	
+</div>
+
+<div class="span12 nav-hide-fix"></div>
+<div class="span12 nav-hide-fix-tablet"></div>
 
 <div class="span12 nav">
 	<div class="span9 span4-tablet span6-mobile">
@@ -140,7 +174,7 @@
 
 </div>
 
-<div class="left-container span9">
+<div class="left-container span9 span12-tablet span12-mobile">
 
 	<div style="margin:0 auto;" class="holder">
 

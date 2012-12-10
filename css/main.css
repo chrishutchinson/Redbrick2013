@@ -10,14 +10,21 @@
 	border-left:1px solid #FFFFFF;
 	background-color:#f2f2f2;
 	height:100%;
-	position:fixed;
-	right:0;
-	top:50;
-	z-index:9998;
+	position:absolute;
+	right:0px;
+	top:450px;
+	z-index:998;
 	padding:10px;
 	overflow-y:scroll !important;
 	padding-bottom:50px;
 	-webkit-overflow-scrolling: touch;
+}
+
+.right-container-fixed{
+	position:fixed;
+	right:0px;
+	top:50px;
+	z-index:998;
 }
 
 .hide-mobile{
