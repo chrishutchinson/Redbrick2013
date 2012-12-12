@@ -22,6 +22,15 @@
 			$(".mobile-sections").toggleClass("hide");
 			return false;
 		});
+
+        // Your div has reached the top
+        $('.nav').addClass("nav-fixed");
+        $('.nav-tablet').addClass("nav-tablet-fixed");
+        $('.right-container').addClass("right-container-fixed");
+        $('.mobile-sections').addClass("mobile-sections-fixed");
+        $('.nav-hide-fix').show();
+        $('.nav-hide-fix-tablet').show();
+    
 	});
 	</script>
 
@@ -35,6 +44,8 @@
   js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=497410460288853";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="span12 nav-hide-fix"></div>
 
 <div class="span12 nav">
 	<div class="span9 span4-tablet span6-mobile">
@@ -131,14 +142,14 @@
 
 	<div class="span12 text" style="border-bottom:1px solid #ababab;">
 		<h5 class="bold headline"><img src="img/hot.png" /> <span style="color:#aa1717">Hot</span> topics right now</h5>
-		<span class="tag item"><a href="#">president</a></span>
-		<span class="tag item">cuts</span>
-		<span class="tag item">obama</span>
-		<span class="tag item">recipe</span>
-		<span class="tag item">guild</span>
-		<span class="tag item">golf</span>
-		<span class="tag item">iphone</span>
-		<span class="tag item">oranges</span>
+		<a href="#" class="tag item">president</a>
+		<a href="#" class="tag item">cuts</a>
+		<a href="#" class="tag item">obama</a>
+		<a href="#" class="tag item">recipe</a>
+		<a href="#" class="tag item">guild</a>
+		<a href="#" class="tag item">golf</a>
+		<a href="#" class="tag item">iPhone</a>
+		<a href="#" class="tag item">demo2012</a>
 	</div>
 
 	<div class="span12" style="border-bottom:1px solid #ababab;">
