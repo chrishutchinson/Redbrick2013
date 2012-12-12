@@ -1,4 +1,6 @@
 <?php
+ob_start();
+
 /* functions.php */
 /* Redbrick2013 Theme */
 /* Written by Chris Hutchinson (chris_hutchinson@me.com) */
@@ -6,11 +8,11 @@
 ?>
 
 <?php
-/* Call jQuery in */
-function my_scripts() {
-    wp_enqueue_script('jquery');            
+function my_init_method() {
+wp_deregister_script( 'jquery' );
+wp_register_script(   'jquery'
+    , 'http://code.jquery.com/jquery-latest.min.js');
 }    
-
-add_action('wp_enqueue_scripts', 'my_scripts');
-/* End jQuery call */
+ 
+add_action('init', 'my_init_method');
 ?>

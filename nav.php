@@ -33,8 +33,8 @@
 	</div>
 
 	<div class="span3 span8-tablet span6-mobile text-right">
-		<input type="image" src="img/menu.png" class="menu-button sidebar-activate hide-mobile" />
-		<input type="image" src="img/search.png" class="menu-button" />
+		<input type="image" src="<?php bloginfo("template_directory") ?>/img/menu.png" class="menu-button sidebar-activate hide-mobile" />
+		<input type="image" src="<?php bloginfo("template_directory") ?>/img/search.png" class="menu-button" />
 		<input type="text" style="border:0; width:100px; height:40px; margin-top:5px; font-size:14px; float:right;" placeholder="Search..." />
 	</div>
 </div>

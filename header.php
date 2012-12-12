@@ -18,6 +18,7 @@
 	<!--[if lt IE 9]>
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo("template_directory") ?>/mobile.css"/>
 	<![endif]-->
+	<?php wp_head(); ?>
 </head>
 
 <body>
@@ -30,7 +31,7 @@
 
 	<?php get_template_part("nav"); //Include nav.php file ?>
 
-	<?php get_template_par("sidebar") //Include sidebar.php file ?>
+	<?php get_template_part("sidebar") //Include sidebar.php file ?>
 
 <?php
 /* END FILE */

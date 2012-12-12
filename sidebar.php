@@ -37,7 +37,7 @@
 	</div>
 
 	<div class="span12 text" style="border-bottom:1px solid #ababab;">
-		<h5 class="bold headline"><img src="img/hot.png" /> <span style="color:#aa1717">Hot</span> topics right now</h5>
+		<h5 class="bold headline"><img src="<?php bloginfo("template_directory") ?>/img/hot.png" /> <span style="color:#aa1717">Hot</span> topics right now</h5>
 		<a href="#" class="tag item">president</a>
 		<a href="#" class="tag item">cuts</a>
 		<a href="#" class="tag item">obama</a>
